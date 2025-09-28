@@ -47,19 +47,19 @@ python setup_local_db.py
 ### 3. run the app
 
 #### Backend
-bash 
+
 ```
 uvicorn src.admin_api:app --reload --port 8000;      
 ```
 
 #### Frontend
-bash 
+
 ```
 npm run dev
 ```
 
-backend: http://localhost:8000
-frontend: http://localhost:3000
+- backend: http://localhost:8000
+- frontend: http://localhost:3000
 
 
 ## Pending
