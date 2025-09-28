@@ -28,7 +28,7 @@ This is a simple admin portal that allows the root user to manage tenants and vi
 
 ## Setup 
 
-1. setup python environment
+### 1. setup python environment
 
 bash
 ```
@@ -37,22 +37,22 @@ source venv/bin/activate
 pip install -r requirements.txt
 ```
 
-2. setup db connection and populate db
+### 2. setup db connection and populate db
 
 bash
 ```
 python setup_local_db.py
 ```
 
-3. run the app
+### 3. run the app
 
-### Backend
+#### Backend
 bash 
 ```
 uvicorn src.admin_api:app --reload --port 8000;      
 ```
 
-### Frontend
+#### Frontend
 bash 
 ```
 npm run dev
