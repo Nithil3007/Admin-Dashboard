@@ -55,6 +55,10 @@ uvicorn src.admin_api:app --reload --port 8000;
 #### Frontend
 
 ```
+npm install
+```
+
+```
 npm run dev
 ```
 
