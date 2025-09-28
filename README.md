@@ -65,10 +65,28 @@ npm run dev
 - backend: http://localhost:8000
 - frontend: http://localhost:3000
 
+## Screenshots
+
+### Free Trial Tenants 
+<img width="1709" height="951" alt="Screenshot 2025-09-27 at 10 39 16 PM" src="https://github.com/user-attachments/assets/e5350ff3-b04e-4570-a46a-04da578d21d2" />
+
+### First Page - initial
+<img width="1709" height="951" alt="Screenshot 2025-09-27 at 10 39 26 PM" src="https://github.com/user-attachments/assets/f7aa4c41-e669-44f9-9dda-a75c87d72041" />
+
+### Tenants' Tiers table - initial
+<img width="1709" height="959" alt="Screenshot 2025-09-27 at 10 39 47 PM" src="https://github.com/user-attachments/assets/9e68ee2a-faf6-4b6e-a9d4-77ca8ef4777e" />
+
+### Changed Dr. Alice Wonderland status from Professional to Basic
+<img width="1709" height="959" alt="Screenshot 2025-09-27 at 10 40 17 PM" src="https://github.com/user-attachments/assets/fee562c9-0d33-465f-8e5c-43f291e789b6" />
+
+### Tenants' Tiers table - final
+<img width="1709" height="959" alt="Screenshot 2025-09-27 at 10 40 33 PM" src="https://github.com/user-attachments/assets/aed0a65f-d9d4-482d-b0cf-6a33893e44b2" />
+
 
 ## Pending
 
 - Add unleash feature flags to the UI
 - Add CI/CD pipeline
 - Add terraform for infrastructure
+
 
