@@ -85,7 +85,6 @@ npm run dev
 
 ## Pending
 
-- Create User Authentication using Cognito
 - Add unleash feature flags to the UI
 - Add CI/CD pipeline
 - Add terraform for infrastructure
