@@ -65,6 +65,26 @@ npm run dev
 - backend: http://localhost:8000
 - frontend: http://localhost:3000
 
+## Terraform - infrastructure stack
+
+- Cognito	- Authentication
+- App Runner - Backend API
+- RDS PostgreSQL - Database
+- ECR - Docker images
+- S3 - File storage
+- Amplify - Frontend hosting
+- CloudWatch - Logs
+- NAT Gateway - Networking
+
+## CI/CD Pipeline
+
+- On Push to main:
+1. Test Backend (pytest with PostgreSQL)
+2. Test Frontend (lint + build)
+3. Build Docker Image
+4. Push to ECR (with git SHA tag + latest)
+5. App Runner auto-deploys new image
+
 ## Screenshots
 
 ### Free Trial Tenants 
@@ -81,12 +101,5 @@ npm run dev
 
 ### Tenants' Tiers table - final
 <img width="1709" height="959" alt="Screenshot 2025-09-27 at 10 40 33 PM" src="https://github.com/user-attachments/assets/aed0a65f-d9d4-482d-b0cf-6a33893e44b2" />
-
-
-## Pending
-
-- Add unleash feature flags to the UI
-- Add CI/CD pipeline
-- Add terraform for infrastructure
 
 
